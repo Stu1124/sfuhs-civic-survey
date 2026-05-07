@@ -12,7 +12,7 @@ Interactive dashboard and statistical analysis of an April 2026 survey at SFUHS 
 
 | File | What it is |
 |---|---|
-| `index.html` | Self-contained interactive dashboard (Chart.js + Grid.js via CDN). Open in any browser. |
+| `index.html` / `dashboard.html` | Self-contained interactive dashboard (Chart.js + Grid.js via CDN). Open in any browser. |
 | `ANALYSIS.md` | Written findings: descriptives, chi-square, correlation, logistic regression, qualitative themes, caveats. |
 | `data/raw_survey.csv` | Original survey export. |
 | `data/cleaned_survey.csv` | Long-form cleaned dataset (one row per respondent, normalized columns). |
