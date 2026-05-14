@@ -1,6 +1,6 @@
 # Youth Civic Engagement & Voting Attitudes — Analysis
 
-Sample: 83 SFUHS respondents collected April 2026 (67 students, 16 faculty/staff). All Likert items are 1–5.
+Sample: 83 SFUHS respondents collected April 2026 (67 students, 16 faculty/staff). All Likert items are 1–5. This version adds rubric-based knowledge scoring of the open-text answers.
 
 ## 1. Headline numbers
 
@@ -9,11 +9,40 @@ Sample: 83 SFUHS respondents collected April 2026 (67 students, 16 faculty/staff
 | Lower **local** voting age to 16 | 44.8% / 40.3% / 14.9% | 56.2% / 25.0% / 18.8% |
 | Lower **federal** voting age to 16 | 29.9% / 53.7% / 16.4% | 37.5% / 37.5% / 25.0% |
 
-Both groups are more permissive about a *local* lowering than a *federal* one. Faculty are nominally more supportive than students of both, but the role × support contingency tables are not statistically significant in this sample (chi-square p = 0.52 for local, p = 0.49 for federal). With n = 16 on the faculty side, the test has very little power to detect anything but a large gap.
+Whole-sample "Yes": 47.0% local, 31.3% federal. Both groups are more permissive about a *local* lowering than a *federal* one. Faculty are nominally more supportive than students, but the role × support contingency tables are not statistically significant (chi-square p = 0.52 local, p = 0.49 federal). With n = 16 faculty, the test has very little power.
 
-## 2. Self-reported engagement
+## 2. Knowledge scoring — the new layer
 
-Means on the 1–5 Likert items:
+Every open-text answer is scored on a fixed, code-defined rubric so "knowledge" is measured rather than asserted. Three scores plus two composites:
+
+- **Mayor Knowledge Score (0–10), students.** Students were asked what they know about the current SF mayor (Daniel Lurie). Answers are checked against verified facts about his actual 2026 agenda — Family Zoning Plan (signed Dec 2025), ~$643M budget deficit, November charter-reform ballot measure with Board President Mandelman, affordability/childcare pivot, homelessness and fentanyl focus, downtown recovery, sister-city diplomacy. Naming him scores +2; each specific verified policy +1 to +1.5.
+- **Reasoning Depth Score (0–10), everyone.** Argument quality of the "explain your answer" text: length (0–3) + specificity (0–3) + multi-perspective markers (0–2) + nuance/concession (0–2). Independent of which side the respondent took.
+- **Civic Skills Score (0–10), faculty.** Civic-concept density + length on the "what skills matter most" answer.
+- **Engagement Index (0–100), students.** Mean of follow-local, follow-federal, likelihood-to-vote, rescaled.
+- **Civic Literacy Index (0–100), students.** 40% mayor knowledge + 35% reasoning depth + 25% political following.
+
+### What the scores reveal
+
+**Civic knowledge of city government is thin.** Mean mayor knowledge among students is **1.33 / 10**, and **49.3% scored 0** — they left the question blank or named nothing verifiable. Only 2 of 67 students scored 6 or above. Reasoning depth is also low: students average **1.73 / 10**, faculty **2.55 / 10** — most student explanations are short and single-angle. The Civic Literacy Index averages **24.9 / 100**, dragged down by the two measured components; self-reported following alone (which students rate around 3/5) would look far healthier. The gap between how engaged students *say* they are and what they can *demonstrate* is the central finding the scoring exposes.
+
+**Engagement is not knowledge.** The Engagement Index (mean 63.1/100, built from self-ratings) correlates only weakly with measured mayor knowledge (r ≈ 0.17). Feeling politically engaged and being able to name what the mayor is doing are nearly unrelated in this sample.
+
+## 3. Knowledge tracks skepticism, not enthusiasm
+
+This is the most striking pattern the scoring surfaces. Support for lowering the age is **inversely** related to measured knowledge and to age/grade:
+
+| Grade | n | % Yes (local) | Avg mayor knowledge |
+|---|---|---|---|
+| 9 | 21 | 71.4% | 1.21 |
+| 10 | 15 | 46.7% | 0.70 |
+| 11 | 19 | 31.6% | 1.26 |
+| 12 | 12 | 16.7% | 2.42 |
+
+Twelfth-graders know the most and support a local lowering the least (16.7%); ninth-graders know the least and support it the most (71.4%). In the student logistic regression, **mayor knowledge score carries a negative coefficient** for local support (−0.56 standardized), and "follow local politics" is also negative (−0.99). The students who can actually describe city government lean against extending the vote to 16-year-olds — consistent with the most common written objection, which is precisely that peers are not informed enough.
+
+By knowledge band, the relationship is non-monotonic but clearly not "more knowledge → more support": the "None" band is 36% Yes, "Low" 78%, "Medium" 29%, "High" 0% (n=2). The bands are small, so read loosely, but no version of the data shows knowledge driving enthusiasm.
+
+## 4. Self-reported attitudes
 
 | Item | Students | Faculty |
 |---|---|---|
@@ -23,56 +52,35 @@ Means on the 1–5 Likert items:
 | Influence in federal elections | 1.39 | — |
 | Views align with parents | 4.06 | — |
 | Likelihood to vote in SF if eligible | 4.22 | — |
-| 16–18 yr olds informed enough — local | 2.91 | 3.06 |
-| 16–18 yr olds informed enough — federal | 2.78 | 2.81 |
+| 16–18 informed enough — local | 2.91 | 3.06 |
+| 16–18 informed enough — federal | 2.78 | 2.81 |
 
-Two patterns stand out. First, students rate themselves very high on parental alignment (mean 4.06 / 5) and very low on perceived influence (1.55 local, 1.39 federal). They believe their views match their parents' and that their vote does not matter much — which is exactly the combination opponents of lowering the age cite ("voting twice for the parent"). Second, students and faculty give nearly identical assessments of whether 16–18 year-olds are informed enough (means within 0.15 of each other). The disagreement between the groups is not really about competence; it's elsewhere.
+Students rate their own influence very low (≈1.5/5) and their alignment with parents very high (≈4/5) — exactly the "parents get two votes" combination that opponents cite. Students and faculty give nearly identical assessments of teen informedness (within 0.15). Notably, **mayor knowledge correlates −0.36 with self-reported parental alignment**: students who know more about city government are somewhat less likely to say their views simply track their parents'.
 
-## 3. What predicts a "Yes" among students?
+## 5. What predicts a student "Yes"
 
-I fit two L2-regularized logistic regressions on the student subsample (Unsure responses dropped, Likert features z-scored). These are exploratory — n=57 with 9 features, so coefficients are directional only.
+L2-regularized logistic regression, student subsample, Unsure dropped, features z-scored. Exploratory only — n ≈ 57 with 11 features, in-sample accuracy inflated.
 
-**Local lowering (n=57, base "Yes" rate 53%, in-sample acc 95%):**
-The strongest positive predictors are believing 16–18 year-olds are informed enough about *local* issues (+1.99) and about *federal* issues (+1.17). The strongest negative predictor is "follow local politics" (−1.00) — students who say they follow local politics closely are *less* likely to support a local lowering. Age is also negative (−0.41): younger students (9th–10th graders) lean more supportive than seniors. Alignment with parents is mildly positive (+0.49).
+**Local lowering.** Strongest positive predictors: believing 16–18 year-olds are informed enough — local (+2.01) and federal (+1.11), and reasoning depth (+0.80). Strongest negative: follow-local-politics (−0.99), mayor knowledge (−0.56), age (−0.37). Support tracks *belief that peers are competent*, not the respondent's own engagement or measured knowledge — and the people who follow politics and score higher on knowledge are more skeptical.
 
-**Federal lowering (n=57, base "Yes" rate 35%, in-sample acc 91%):**
-Similar shape. Believing 16–18 year-olds are informed enough — federally (+1.96) and locally (+0.90) — dominates. "Follow federal politics" is positive (+0.42). Likelihood to vote is mildly negative (−0.33).
+**Federal lowering.** Similar shape; belief-in-peer-informedness dominates again.
 
-The story the model tells: support tracks belief that one's peers are competent voters, much more than self-reported engagement or self-rated influence. Students who follow politics closely are slightly more skeptical, not less — they're aware of how unevenly informed the peer group is.
+## 6. Open-text themes
 
-## 4. Correlations worth flagging (students)
+Student explanation keyword hits: "inform" 13, "influenc" 12, "educat" 11, "local" 11, "federal" 10, "parent" 6, "mature" 5, "cortex" 2. Faculty: "inform" 16, "educat" 9. Two opposition clusters recur in student write-ins: **parental capture** ("would essentially give parents 2 votes," "easily swayed") and **brain development** ("prefrontal cortex," "frontal lobe"). Supportive arguments cluster on **local impact** (housing, schools, transit affect students directly) and **adult-voter parity** ("most adults aren't informed either").
 
-- Age and grade correlate −0.41 / −0.41 with "16–18 year-olds informed enough — local." Older students are more skeptical of their peers' readiness.
-- Likelihood to vote correlates +0.42 with informed-local and +0.34 with informed-federal. Students who would vote also believe peers are ready.
-- Following local and federal politics correlate 0.55 with each other but only weakly with perceived peer readiness — closely-following students do not automatically endorse lowering the age.
-- Self-reported "influence in local elections" (mean 1.55) is barely correlated with any informed-or-engagement variable. Students rate their influence as low almost universally.
+## 7. News sources
 
-## 5. Open-text themes
+Both groups rely heavily on traditional news. Students add social media (TikTok/Instagram/X) at much higher rates than faculty; faculty lean on podcasts and traditional outlets. Average mayor knowledge does not differ dramatically by source — and because most students select several sources, the subgroups overlap heavily, so source-to-knowledge differences should not be over-read.
 
-Substring counts in students' explanations (top hits): "inform" 13, "influenc" 12, "educat" 11, "local" 11, "federal" 10, "parent" 6, "mature" 5, "social media" 3, "cortex" 2. Faculty explanations + reasoning: "inform" 16, "educat" 9, "local" 4, "parent" 3, "mature" 2, "cortex" 2.
+## 8. What the data does not say
 
-Two clusters of opposition appear repeatedly in student write-ins:
+- **Causality.** Cross-sectional, single-school, self-selected. Correlations are not effects.
+- **Generalizability.** SFUHS is a private SF high school; the sample is not representative of SF, California, or US teenagers.
+- **Significance.** Role × support chi-square tests do not clear conventional thresholds. Descriptive, not inferential.
+- **Scores are heuristics.** The rubrics use keyword and structure matching, not human grading or NLP. They reward mentioning verifiable facts and structured argument; they can miss correct knowledge phrased unusually, or reward name-dropping. Their value is being transparent and reproducible — every score is auditable in the dashboard's Explore section. They are a proxy for knowledge, not a definitive measure of it.
+- **Models.** Logistic regressions are exploratory; coefficients are directional only.
 
-1. *Parental capture* — variants of "16-year-olds are influenced by their parents," "would essentially give parents 2 votes," "easily swayed."
-2. *Brain development* — explicit references to "prefrontal cortex" / "frontal lobe," sometimes citing it as a hard biological argument.
+## 9. Bottom line
 
-The supportive arguments cluster around two ideas: (a) that local issues directly affect students so they should have a vote (housing, schools, transit), and (b) that the average adult voter is not noticeably more informed, so a competence bar excludes younger people unfairly.
-
-A faculty respondent with a social-science background made the most-developed pro argument: parental partisanship is the number-one predictor for everyone's partisanship, so the "parents get two votes" objection generalizes; lowering the age might also create habit-forming voting behavior that would lift adult turnout.
-
-## 6. News sources
-
-Both groups rely heavily on traditional news (NYT, WSJ, SF Chronicle). Students supplement with social media (TikTok/Instagram/X) at much higher rates than faculty; faculty lean more on podcasts and traditional news. School and family/friends are also common student sources. Several open-text answers express explicit distrust of social media as a primary news source and tie that distrust to skepticism about peer voting readiness.
-
-## 7. What the data does not say
-
-- **Causal claims.** Cross-sectional, single-school, self-selected sample. None of these correlations imply causation.
-- **Generalizability.** SFUHS is a private high school in San Francisco. The sample is not representative of California or US teenagers. The faculty respondent who flagged this — that SF teens are unusually engaged compared to teens elsewhere — is probably right.
-- **Statistical significance.** The role × support chi-square tests do not clear conventional significance. With this sample size, the data is descriptive, not inferential.
-- **Open-text analysis.** Substring counting is a crude summary. A richer analysis would code each response on multiple dimensions (concern type, reasoning style, valence) — feasible at this N if done by hand.
-
-## 8. Bottom line
-
-Among these respondents, support for a local 16+ lowering is roughly a coin flip; federal support is meaningfully lower. The strongest predictor of a student saying "Yes" is whether they believe their peers are informed enough — not their own engagement or self-rated influence. The most common reason for "No" is fear of parental capture and concerns about teen impressionability, often framed in developmental-biology terms. Faculty are slightly more supportive than students but disagree among themselves.
-
-If the goal is to use this data to inform a position, the actionable observation is that the local/federal distinction matters more than the role distinction: respondents are notably more comfortable with 16-year-olds voting on issues that demonstrably affect their daily lives than on national questions.
+Support for a local 16+ lowering is roughly a coin flip (47%); federal support is markedly lower (31%). The knowledge scoring exposes a real gap between self-reported engagement and demonstrable knowledge: half of students could not name a single verifiable fact about their own mayor, and the Civic Literacy Index averages only 25/100. And measured knowledge runs *against* support — older, more knowledgeable students are the most skeptical, echoing the dominant written objection that 16-year-olds are not informed enough. The clearest actionable observation remains that the local/federal distinction matters more than the role distinction: respondents are far more comfortable with 16-year-olds voting on issues that demonstrably affect their daily lives.

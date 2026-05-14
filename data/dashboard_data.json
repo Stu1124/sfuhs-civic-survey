@@ -1,6 +1,7 @@
 {
   "rows": [
     {
+      "id": 1,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -20,9 +21,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.56,
+      "reasoning_parts": {
+        "length": 1.36,
+        "specificity": 1.2,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 34
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 91.7,
+      "civic_literacy_index": 37.5,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "Other"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Neither"
     },
     {
+      "id": 2,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -42,9 +67,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.08,
+      "reasoning_parts": {
+        "length": 1.48,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 37
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 26.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "YouTube",
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Local only"
     },
     {
+      "id": 3,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -64,9 +112,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.8,
+      "reasoning_parts": {
+        "length": 0.8,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 20
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 18.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Both"
     },
     {
+      "id": 4,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -86,9 +157,30 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.32,
+      "reasoning_parts": {
+        "length": 0.32,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 8
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 50.0,
+      "civic_literacy_index": 7.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Neither"
     },
     {
+      "id": 5,
       "role": "Student",
       "age": 16.0,
       "grade": 11.0,
@@ -108,9 +200,31 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.44,
+      "reasoning_parts": {
+        "length": 0.44,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 1.0,
+        "words": 11
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 25.0,
+      "civic_literacy_index": 5.0,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Local only"
     },
     {
+      "id": 6,
       "role": "Student",
       "age": 15.0,
       "grade": 10.0,
@@ -130,9 +244,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.48,
+      "reasoning_parts": {
+        "length": 0.48,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 12
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 20.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Neither"
     },
     {
+      "id": 7,
       "role": "Student",
       "age": 18.0,
       "grade": 12.0,
@@ -152,9 +289,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.48,
+      "reasoning_parts": {
+        "length": 0.88,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 22
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 23.9,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Neither"
     },
     {
+      "id": 8,
       "role": "Student",
       "age": 17.0,
       "grade": 12.0,
@@ -174,9 +335,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.5,
+      "mayor_knowledge_hits": [
+        "Public safety / crime",
+        "Housing / zoning / affordability",
+        "Background (wealth / Tipping Point)"
+      ],
+      "reasoning_depth_score": 0.28,
+      "reasoning_parts": {
+        "length": 0.28,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 7
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 91.7,
+      "civic_literacy_index": 36.9,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 9,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -196,9 +383,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.76,
+      "reasoning_parts": {
+        "length": 0.76,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 19
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 15.2,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Neither"
     },
     {
+      "id": 10,
       "role": "Student",
       "age": 16.0,
       "grade": 9.0,
@@ -218,9 +428,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 4.52,
+      "reasoning_parts": {
+        "length": 1.52,
+        "specificity": 0.0,
+        "perspective": 1.0,
+        "nuance": 2.0,
+        "words": 38
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 34.6,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 11,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -240,9 +474,31 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.8,
+      "reasoning_parts": {
+        "length": 0.8,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 20
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 18.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Both"
     },
     {
+      "id": 12,
       "role": "Student",
       "age": 17.0,
       "grade": 12.0,
@@ -262,9 +518,40 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 5.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Homelessness focus",
+        "Sister-city diplomacy",
+        "Climate plan"
+      ],
+      "reasoning_depth_score": 2.84,
+      "reasoning_parts": {
+        "length": 1.24,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 31
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 47.6,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "Other"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Neither"
     },
     {
+      "id": 13,
       "role": "Student",
       "age": 14.0,
       "grade": 9.0,
@@ -284,9 +571,36 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 2.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name"
+      ],
+      "reasoning_depth_score": 0.6,
+      "reasoning_parts": {
+        "length": 0.6,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 15
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 21.5,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Both"
     },
     {
+      "id": 14,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -306,9 +620,30 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.72,
+      "reasoning_parts": {
+        "length": 0.72,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 18
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 18.1,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Both"
     },
     {
+      "id": 15,
       "role": "Student",
       "age": 14.0,
       "grade": 9.0,
@@ -328,9 +663,36 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Attempted, no verifiable facts"
+      ],
+      "reasoning_depth_score": 1.84,
+      "reasoning_parts": {
+        "length": 0.64,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 16
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 41.7,
+      "civic_literacy_index": 14.7,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Local only"
     },
     {
+      "id": 16,
       "role": "Student",
       "age": 16.0,
       "grade": 11.0,
@@ -350,9 +712,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 2.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name"
+      ],
+      "reasoning_depth_score": 2.32,
+      "reasoning_parts": {
+        "length": 0.72,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 18
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 33.7,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Local only"
     },
     {
+      "id": 17,
       "role": "Student",
       "age": 18.0,
       "grade": 12.0,
@@ -372,9 +759,36 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Media presence"
+      ],
+      "reasoning_depth_score": 3.48,
+      "reasoning_parts": {
+        "length": 0.88,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 1.0,
+        "words": 22
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 26.7,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Both"
     },
     {
+      "id": 18,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -394,9 +808,32 @@
       "subject": "Language",
       "years_in_ed": "11\u201320",
       "civic_skills_text": "Knowledge of how the government is structured and functions, as well as the skill of evaluating claims based on evidence. People need to have the ability to think critically about what politicians say and propose.",
-      "reasoning_text": "Some are informed, some are not. The same is true of people 18+, however."
+      "reasoning_text": "Some are informed, some are not. The same is true of people 18+, however.",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.72,
+      "reasoning_parts": {
+        "length": 1.12,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 1.0,
+        "words": 28
+      },
+      "faculty_reasoning_score": 3.16,
+      "civic_skills_score": 8.17,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Neither"
     },
     {
+      "id": 19,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -416,9 +853,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.16,
+      "reasoning_parts": {
+        "length": 0.56,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 14
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 100.0,
+      "civic_literacy_index": 29.1,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Both"
     },
     {
+      "id": 20,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -438,9 +898,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.52,
+      "reasoning_parts": {
+        "length": 1.52,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 38
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 0.0,
+      "civic_literacy_index": 5.3,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 21,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -460,9 +943,31 @@
       "subject": "Fundraising",
       "years_in_ed": "6\u201310",
       "civic_skills_text": "empathy",
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.48,
+      "reasoning_parts": {
+        "length": 0.48,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 12
+      },
+      "faculty_reasoning_score": 0.0,
+      "civic_skills_score": 1.43,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Both"
     },
     {
+      "id": 22,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -482,9 +987,30 @@
       "subject": "Admin",
       "years_in_ed": "20+",
       "civic_skills_text": null,
-      "reasoning_text": "It depends on the student, of course!"
+      "reasoning_text": "It depends on the student, of course!",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.56,
+      "reasoning_parts": {
+        "length": 1.36,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 1.0,
+        "words": 34
+      },
+      "faculty_reasoning_score": 1.28,
+      "civic_skills_score": 0.0,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Local only"
     },
     {
+      "id": 23,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -504,9 +1030,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.04,
+      "reasoning_parts": {
+        "length": 1.04,
+        "specificity": 0.0,
+        "perspective": 1.0,
+        "nuance": 1.0,
+        "words": 26
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 23.1,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 24,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -526,9 +1076,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.0,
+      "reasoning_parts": {
+        "length": 0,
+        "specificity": 0,
+        "perspective": 0,
+        "nuance": 0,
+        "words": 0
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 50.0,
+      "civic_literacy_index": 9.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "Other"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 25,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -548,9 +1122,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Downtown / economic recovery"
+      ],
+      "reasoning_depth_score": 0.32,
+      "reasoning_parts": {
+        "length": 0.32,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 8
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 33.9,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Both"
     },
     {
+      "id": 26,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -570,9 +1170,38 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.5,
+      "mayor_knowledge_hits": [
+        "Homelessness focus",
+        "Public safety / crime",
+        "Housing / zoning / affordability"
+      ],
+      "reasoning_depth_score": 4.6,
+      "reasoning_parts": {
+        "length": 3.0,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 1.0,
+        "words": 85
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 91.7,
+      "civic_literacy_index": 52.0,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School",
+        "Other"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Both"
     },
     {
+      "id": 27,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -592,9 +1221,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.72,
+      "reasoning_parts": {
+        "length": 1.92,
+        "specificity": 1.8,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 48
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 31.8,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Local only"
     },
     {
+      "id": 28,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -614,9 +1266,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 1.0,
+      "mayor_knowledge_hits": [
+        "Party / ideology"
+      ],
+      "reasoning_depth_score": 0.4,
+      "reasoning_parts": {
+        "length": 0.4,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 10
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 24.2,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Both"
     },
     {
+      "id": 29,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -636,9 +1314,36 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.5,
+      "mayor_knowledge_hits": [
+        "Downtown / economic recovery",
+        "Public safety / crime",
+        "Media presence",
+        "Background (wealth / Tipping Point)"
+      ],
+      "reasoning_depth_score": 0.4,
+      "reasoning_parts": {
+        "length": 0.4,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 10
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 41.7,
+      "civic_literacy_index": 24.8,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 30,
       "role": "Student",
       "age": 17.0,
       "grade": 12.0,
@@ -658,9 +1363,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.0,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Media presence"
+      ],
+      "reasoning_depth_score": 0.6,
+      "reasoning_parts": {
+        "length": 0.6,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 15
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 50.0,
+      "civic_literacy_index": 20.4,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 31,
       "role": "Student",
       "age": 16.0,
       "grade": 11.0,
@@ -680,9 +1411,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.6,
+      "reasoning_parts": {
+        "length": 2.6,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 65
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 25.0,
+      "civic_literacy_index": 18.5,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Neither"
     },
     {
+      "id": 32,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -702,9 +1458,30 @@
       "subject": "History",
       "years_in_ed": "20+",
       "civic_skills_text": "I think everyone, not just young people, need to understand what they are voting for. Most people vote based on feeling rather than careful consideration of what they are voting for. This is why we get a lot of people, say, the day after Brexit or the 2024 Trump election already regretting their choice. I have no patience for the phrase, \"If I had known...\"  ",
-      "reasoning_text": "Some are ready, some are not. Lack of education is the main reason."
+      "reasoning_text": "Some are ready, some are not. Lack of education is the main reason.",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.08,
+      "reasoning_parts": {
+        "length": 0.48,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 12
+      },
+      "faculty_reasoning_score": 2.12,
+      "civic_skills_score": 2.17,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Neither"
     },
     {
+      "id": 33,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -724,9 +1501,31 @@
       "subject": "Sciences",
       "years_in_ed": "6\u201310",
       "civic_skills_text": "Awareness of issues beyond party affiliation.  Willingness to look at implications of decisions.  Understanding the role of the offices being voted for.",
-      "reasoning_text": "The pre-frontal cortex hasn't fully developed.  Judgement of 16 year olds is notoriously limited and easily swayed. "
+      "reasoning_text": "The pre-frontal cortex hasn't fully developed.  Judgement of 16 year olds is notoriously limited and easily swayed. ",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.04,
+      "reasoning_parts": {
+        "length": 1.44,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 36
+      },
+      "faculty_reasoning_score": 1.36,
+      "civic_skills_score": 2.13,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 34,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -746,9 +1545,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Attempted, no verifiable facts"
+      ],
+      "reasoning_depth_score": 1.24,
+      "reasoning_parts": {
+        "length": 1.24,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 31
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 15.7,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Both"
     },
     {
+      "id": 35,
       "role": "Student",
       "age": 17.0,
       "grade": 12.0,
@@ -768,9 +1593,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 2.5,
+      "mayor_knowledge_hits": [
+        "Public safety / crime",
+        "Housing / zoning / affordability"
+      ],
+      "reasoning_depth_score": 4.16,
+      "reasoning_parts": {
+        "length": 2.56,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 64
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 37.1,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Both"
     },
     {
+      "id": 36,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -790,9 +1641,31 @@
       "subject": "Admin",
       "years_in_ed": "20+",
       "civic_skills_text": "Having an understanding of the impacts of what a vote means. I don't think people vote with a clear understanding of what each ballot means to their needs.",
-      "reasoning_text": "Every person if different in how they consume media. Figuring out what is true and accurate is what is most important."
+      "reasoning_text": "Every person if different in how they consume media. Figuring out what is true and accurate is what is most important.",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 4.0,
+      "reasoning_parts": {
+        "length": 3.0,
+        "specificity": 0.0,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 112
+      },
+      "faculty_reasoning_score": 0.84,
+      "civic_skills_score": 3.77,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Both"
     },
     {
+      "id": 37,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -812,9 +1685,32 @@
       "subject": "History",
       "years_in_ed": "20+",
       "civic_skills_text": "an understanding of the way that government works, engagement with a broad range of perspectives and well developed skills of listening and criticial thinking. ",
-      "reasoning_text": "This echoes my earlier comment, but most Americans need more information to make informed voting decisions, not just teens."
+      "reasoning_text": "This echoes my earlier comment, but most Americans need more information to make informed voting decisions, not just teens.",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.6,
+      "reasoning_parts": {
+        "length": 1.4,
+        "specificity": 1.2,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 35
+      },
+      "faculty_reasoning_score": 2.36,
+      "civic_skills_score": 5.0,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Local only"
     },
     {
+      "id": 38,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -834,9 +1730,32 @@
       "subject": "Sciences",
       "years_in_ed": "6\u201310",
       "civic_skills_text": "Empathy, constitutional rights and amendments, social justice, history of how American politics have affected many types of people.",
-      "reasoning_text": "Children have some idea of how ballot measures and govt officials affect them, but they do not understand all broader aspects. On the federal level, children do not have the broader mindset and experiences to consider the whole effects unless they are given that information."
+      "reasoning_text": "Children have some idea of how ballot measures and govt officials affect them, but they do not understand all broader aspects. On the federal level, children do not have the broader mindset and experiences to consider the whole effects unless they are given that information.",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.48,
+      "reasoning_parts": {
+        "length": 1.48,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 1.0,
+        "words": 37
+      },
+      "faculty_reasoning_score": 5.0,
+      "civic_skills_score": 7.6,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 39,
       "role": "Student",
       "age": 17.0,
       "grade": 12.0,
@@ -856,9 +1775,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.0,
+      "reasoning_parts": {
+        "length": 0,
+        "specificity": 0,
+        "perspective": 0,
+        "nuance": 0,
+        "words": 0
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 18.8,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 40,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -878,9 +1820,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Knows first name"
+      ],
+      "reasoning_depth_score": 0.0,
+      "reasoning_parts": {
+        "length": 0,
+        "specificity": 0,
+        "perspective": 0,
+        "nuance": 0,
+        "words": 0
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 11.4,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Both"
     },
     {
+      "id": 41,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -900,9 +1866,30 @@
       "subject": "Arts",
       "years_in_ed": "6\u201310",
       "civic_skills_text": "Knowledge of impact/effectiveness from a data oriented perspective of various legislation initiatives that connect to values you believe in.",
-      "reasoning_text": "I think that my experience with students at UHS isn't representative/data oriented in a way where I can give a clear assessment."
+      "reasoning_text": "I think that my experience with students at UHS isn't representative/data oriented in a way where I can give a clear assessment.",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.6,
+      "reasoning_parts": {
+        "length": 1.6,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 40
+      },
+      "faculty_reasoning_score": 0.96,
+      "civic_skills_score": 6.27,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 42,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -922,9 +1909,30 @@
       "subject": "Language",
       "years_in_ed": "20+",
       "civic_skills_text": "Community engagement is crucial for understanding what is happening in the city. On a national level, reading news not on IG - reliable news - is critical. ",
-      "reasoning_text": "Because they do not have the right to vote, they disengage. Knowing that they will vote will propel them to know how their lives may be impacted negatively if they are not informed. "
+      "reasoning_text": "Because they do not have the right to vote, they disengage. Knowing that they will vote will propel them to know how their lives may be impacted negatively if they are not informed. ",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.52,
+      "reasoning_parts": {
+        "length": 0.52,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 13
+      },
+      "faculty_reasoning_score": 2.52,
+      "civic_skills_score": 0.83,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Both"
     },
     {
+      "id": 43,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -944,9 +1952,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.24,
+      "reasoning_parts": {
+        "length": 2.04,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 51
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 23.8,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Local only"
     },
     {
+      "id": 44,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -966,9 +1998,38 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.0,
+      "mayor_knowledge_hits": [
+        "Party / ideology",
+        "Homelessness focus",
+        "Drug crisis focus"
+      ],
+      "reasoning_depth_score": 1.12,
+      "reasoning_parts": {
+        "length": 1.12,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 28
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 31.5,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "Other"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Both"
     },
     {
+      "id": 45,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -988,9 +2049,31 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.24,
+      "reasoning_parts": {
+        "length": 0.24,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 6
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 19.6,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 46,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1010,9 +2093,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Homelessness focus"
+      ],
+      "reasoning_depth_score": 0.24,
+      "reasoning_parts": {
+        "length": 0.24,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 6
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 25.0,
+      "civic_literacy_index": 24.2,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 47,
       "role": "Student",
       "age": 16.0,
       "grade": 11.0,
@@ -1032,9 +2141,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.0,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Party / ideology"
+      ],
+      "reasoning_depth_score": 0.96,
+      "reasoning_parts": {
+        "length": 0.96,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 24
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 25.0,
+      "civic_literacy_index": 21.6,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 48,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -1054,9 +2188,32 @@
       "subject": "History",
       "years_in_ed": "20+",
       "civic_skills_text": "being informed and thoughtful and not making knee-jerk decisions",
-      "reasoning_text": "voting age is arbitrary anyway (used to be 21 until the Vietnam War), but this just strikes me as giving people without that much information or background a power that they don't quite understand"
+      "reasoning_text": "voting age is arbitrary anyway (used to be 21 until the Vietnam War), but this just strikes me as giving people without that much information or background a power that they don't quite understand",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.2,
+      "reasoning_parts": {
+        "length": 1.0,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 25
+      },
+      "faculty_reasoning_score": 2.4,
+      "civic_skills_score": 0.33,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Neither"
     },
     {
+      "id": 49,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -1076,9 +2233,31 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.24,
+      "reasoning_parts": {
+        "length": 0.24,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 6
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 50.0,
+      "civic_literacy_index": 7.1,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 50,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -1098,9 +2277,37 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 4.5,
+      "mayor_knowledge_hits": [
+        "Homelessness focus",
+        "Drug crisis focus",
+        "Downtown / economic recovery",
+        "Budget deficit / fiscal challenge"
+      ],
+      "reasoning_depth_score": 0.92,
+      "reasoning_parts": {
+        "length": 0.92,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 23
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 40.0,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Neither"
     },
     {
+      "id": 51,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -1120,9 +2327,31 @@
       "subject": "Sciences",
       "years_in_ed": "11\u201320",
       "civic_skills_text": "Students need a general understanding of geography & populations locally and nationally.\n\nThey need an understanding of their rights, especially voting rights. They need an understanding of the positions that are open for election and what those roles contribute to the city, state, and federal government.\n\nI don't think they need to know voting trends, but rather need to be informed about the current candidates through unbiased profiles and also given unbiased description of the Props. California and SF has more proposals than I've ever seen on other state/city ballots, so digesting all that can be really hard!",
-      "reasoning_text": "Mature enough, yes typically. But often students are simply not well-informed on politics,  especially local issues - I suspect because they have no buy-in without a vote!! If they knew they could vote, they would pay more attention."
+      "reasoning_text": "Mature enough, yes typically. But often students are simply not well-informed on politics,  especially local issues - I suspect because they have no buy-in without a vote!! If they knew they could vote, they would pay more attention.",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.8,
+      "reasoning_parts": {
+        "length": 1.0,
+        "specificity": 1.8,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 25
+      },
+      "faculty_reasoning_score": 3.76,
+      "civic_skills_score": 10.0,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Both"
     },
     {
+      "id": 52,
       "role": "Student",
       "age": 15.0,
       "grade": 10.0,
@@ -1142,9 +2371,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.84,
+      "reasoning_parts": {
+        "length": 0.84,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 21
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 25.0,
+      "civic_literacy_index": 9.2,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "Other"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Both"
     },
     {
+      "id": 53,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -1164,9 +2417,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Attempted, no verifiable facts"
+      ],
+      "reasoning_depth_score": 4.12,
+      "reasoning_parts": {
+        "length": 1.32,
+        "specificity": 1.8,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 33
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 25.8,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Local only"
     },
     {
+      "id": 54,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1186,9 +2465,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Attempted, no verifiable facts"
+      ],
+      "reasoning_depth_score": 2.76,
+      "reasoning_parts": {
+        "length": 1.56,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 39
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 24.2,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 55,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1208,9 +2513,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Attempted, no verifiable facts"
+      ],
+      "reasoning_depth_score": 1.56,
+      "reasoning_parts": {
+        "length": 0.96,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 24
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 33.3,
+      "civic_literacy_index": 13.7,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Neither"
     },
     {
+      "id": 56,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -1230,9 +2560,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.28,
+      "reasoning_parts": {
+        "length": 0.28,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 7
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 41.7,
+      "civic_literacy_index": 4.1,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 57,
       "role": "Student",
       "age": 17.0,
       "grade": 12.0,
@@ -1252,9 +2605,43 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 10.0,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Party / ideology",
+        "Drug crisis focus",
+        "Downtown / economic recovery",
+        "Public safety / crime",
+        "Budget deficit / fiscal challenge",
+        "Housing / zoning / affordability",
+        "Charter reform"
+      ],
+      "reasoning_depth_score": 1.8,
+      "reasoning_parts": {
+        "length": 0.6,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 15
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 61.9,
+      "mayor_knowledge_band": "High (6-10)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Neither"
     },
     {
+      "id": 58,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -1274,9 +2661,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.92,
+      "reasoning_parts": {
+        "length": 0.92,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 23
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 91.7,
+      "civic_literacy_index": 25.1,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School",
+        "Other"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Both"
     },
     {
+      "id": 59,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -1296,9 +2708,31 @@
       "subject": "Mathematics",
       "years_in_ed": "20+",
       "civic_skills_text": "Empathy",
-      "reasoning_text": "Same explanation as above!"
+      "reasoning_text": "Same explanation as above!",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.36,
+      "reasoning_parts": {
+        "length": 1.76,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 44
+      },
+      "faculty_reasoning_score": 0.16,
+      "civic_skills_score": 1.43,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Other"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Local only"
     },
     {
+      "id": 60,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1318,9 +2752,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 1.0,
+      "mayor_knowledge_hits": [
+        "Downtown / economic recovery"
+      ],
+      "reasoning_depth_score": 0.88,
+      "reasoning_parts": {
+        "length": 0.88,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 22
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 19.6,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Both"
     },
     {
+      "id": 61,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -1340,9 +2798,37 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Party / ideology"
+      ],
+      "reasoning_depth_score": 2.24,
+      "reasoning_parts": {
+        "length": 0.64,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 16
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 41.7,
+      "civic_literacy_index": 28.1,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Local only"
     },
     {
+      "id": 62,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -1362,9 +2848,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.96,
+      "reasoning_parts": {
+        "length": 0.96,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 24
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 25.2,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Neither"
     },
     {
+      "id": 63,
       "role": "Student",
       "age": 14.0,
       "grade": 9.0,
@@ -1384,9 +2895,40 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 6.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Homelessness focus",
+        "Drug crisis focus",
+        "Downtown / economic recovery",
+        "Public safety / crime"
+      ],
+      "reasoning_depth_score": 2.92,
+      "reasoning_parts": {
+        "length": 1.72,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 43
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 100.0,
+      "civic_literacy_index": 61.2,
+      "mayor_knowledge_band": "High (6-10)",
+      "news_list": [
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Neither"
     },
     {
+      "id": 64,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1406,9 +2948,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 3.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name",
+        "Downtown / economic recovery"
+      ],
+      "reasoning_depth_score": 3.0,
+      "reasoning_parts": {
+        "length": 1.8,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 45
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 43.2,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Federal only"
     },
     {
+      "id": 65,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -1428,9 +2996,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 2.5,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Knows first name"
+      ],
+      "reasoning_depth_score": 3.4,
+      "reasoning_parts": {
+        "length": 1.2,
+        "specificity": 1.2,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 30
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 37.5,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Local only"
     },
     {
+      "id": 66,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1450,9 +3043,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.64,
+      "reasoning_parts": {
+        "length": 0.64,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 1.0,
+        "words": 16
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 50.0,
+      "civic_literacy_index": 15.1,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 67,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -1472,9 +3089,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 2.0,
+      "mayor_knowledge_hits": [
+        "Downtown / economic recovery",
+        "Sister-city diplomacy"
+      ],
+      "reasoning_depth_score": 2.64,
+      "reasoning_parts": {
+        "length": 1.64,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 1.0,
+        "words": 41
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 36.0,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Both"
     },
     {
+      "id": 68,
       "role": "Student",
       "age": 14.0,
       "grade": 9.0,
@@ -1494,9 +3135,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 4.84,
+      "reasoning_parts": {
+        "length": 2.64,
+        "specificity": 1.2,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 66
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 29.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Local only"
     },
     {
+      "id": 69,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -1516,9 +3181,31 @@
       "subject": "Mathematics",
       "years_in_ed": "11\u201320",
       "civic_skills_text": null,
-      "reasoning_text": "Many of my students get their information based on current events or social media, so that does not provide a rich foundation of knowledge.  Of course, many adults also have a low level of understanding but why add to the voting pool of uninformed voters??"
+      "reasoning_text": "Many of my students get their information based on current events or social media, so that does not provide a rich foundation of knowledge.  Of course, many adults also have a low level of understanding but why add to the voting pool of uninformed voters??",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.12,
+      "reasoning_parts": {
+        "length": 0.52,
+        "specificity": 0.6,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 13
+      },
+      "faculty_reasoning_score": 3.4,
+      "civic_skills_score": 0.0,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Other"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 70,
       "role": "Student",
       "age": 17.0,
       "grade": 12.0,
@@ -1538,9 +3225,30 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.76,
+      "reasoning_parts": {
+        "length": 0.76,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 19
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 12.0,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Family or friends"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Neither"
     },
     {
+      "id": 71,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -1560,9 +3268,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Media presence"
+      ],
+      "reasoning_depth_score": 0.0,
+      "reasoning_parts": {
+        "length": 0,
+        "specificity": 0,
+        "perspective": 0,
+        "nuance": 0,
+        "words": 0
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 41.7,
+      "civic_literacy_index": 11.4,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 72,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -1582,9 +3316,34 @@
       "subject": "Mathematics",
       "years_in_ed": "3\u20135",
       "civic_skills_text": "I definitely value the ability to analyze complex issues and data from multiple perspectives. There is a lot of misinformation out there, so I believe its fundamental for voters to be able to think critically about the information that is being presented to them. ",
-      "reasoning_text": "I think there are certainly students who lack the readiness and maturity to vote. However, political knowledge tends to be low in the broader population as well. Tests of political knowledge reveal that a large segment of the electorate tends to make uninformed voting decisions. As such, I'm not sure that problem is unique to students. Furthermore, I would support lowering the voting age in conjunction with improved civics education to better educate students on their responsibilities and how to analyze local and federal elections to make informed decisions based on their values. "
+      "reasoning_text": "I think there are certainly students who lack the readiness and maturity to vote. However, political knowledge tends to be low in the broader population as well. Tests of political knowledge reveal that a large segment of the electorate tends to make uninformed voting decisions. As such, I'm not sure that problem is unique to students. Furthermore, I would support lowering the voting age in conjunction with improved civics education to better educate students on their responsibilities and how to analyze local and federal elections to make informed decisions based on their values. ",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 4.8,
+      "reasoning_parts": {
+        "length": 3.0,
+        "specificity": 1.8,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 142
+      },
+      "faculty_reasoning_score": 8.0,
+      "civic_skills_score": 5.67,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Both"
     },
     {
+      "id": 73,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1604,9 +3363,36 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 5.0,
+      "mayor_knowledge_hits": [
+        "Names the mayor (Lurie)",
+        "Homelessness focus",
+        "Downtown / economic recovery",
+        "Public safety / crime"
+      ],
+      "reasoning_depth_score": 2.72,
+      "reasoning_parts": {
+        "length": 2.12,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 53
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 41.7,
+      "civic_literacy_index": 42.0,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 74,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -1626,9 +3412,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.8,
+      "reasoning_parts": {
+        "length": 0.8,
+        "specificity": 0.0,
+        "perspective": 1.0,
+        "nuance": 1.0,
+        "words": 20
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 58.3,
+      "civic_literacy_index": 19.2,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Local only"
     },
     {
+      "id": 75,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -1648,9 +3457,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Media presence"
+      ],
+      "reasoning_depth_score": 2.4,
+      "reasoning_parts": {
+        "length": 1.4,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 1.0,
+        "words": 35
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 50.0,
+      "civic_literacy_index": 19.8,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 76,
       "role": "Student",
       "age": 15.0,
       "grade": 9.0,
@@ -1670,9 +3503,32 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.16,
+      "reasoning_parts": {
+        "length": 1.16,
+        "specificity": 0.0,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 29
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 75.0,
+      "civic_literacy_index": 23.2,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Neither"
     },
     {
+      "id": 77,
       "role": "Student",
       "age": 16.0,
       "grade": 10.0,
@@ -1692,9 +3548,31 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 2.64,
+      "reasoning_parts": {
+        "length": 1.64,
+        "specificity": 0.0,
+        "perspective": 1.0,
+        "nuance": 0.0,
+        "words": 41
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 28.0,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 2,
+      "support_pattern": "Neither"
     },
     {
+      "id": 78,
       "role": "Student",
       "age": 14.0,
       "grade": 9.0,
@@ -1714,9 +3592,35 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.5,
+      "mayor_knowledge_hits": [
+        "Attempted, no verifiable facts"
+      ],
+      "reasoning_depth_score": 0.92,
+      "reasoning_parts": {
+        "length": 0.92,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 23
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 66.7,
+      "civic_literacy_index": 20.8,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Both"
     },
     {
+      "id": 79,
       "role": "Student",
       "age": 17.0,
       "grade": 11.0,
@@ -1736,9 +3640,34 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 1.0,
+      "mayor_knowledge_hits": [
+        "Party / ideology"
+      ],
+      "reasoning_depth_score": 3.6,
+      "reasoning_parts": {
+        "length": 2.4,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 60
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 50.0,
+      "civic_literacy_index": 29.1,
+      "mayor_knowledge_band": "Low (0.1-2.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 3,
+      "support_pattern": "Both"
     },
     {
+      "id": 80,
       "role": "Faculty",
       "age": null,
       "grade": null,
@@ -1758,9 +3687,30 @@
       "subject": "Mathematics",
       "years_in_ed": "20+",
       "civic_skills_text": null,
-      "reasoning_text": "I think students are motivated and ready to start voting. "
+      "reasoning_text": "I think students are motivated and ready to start voting. ",
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 3.48,
+      "reasoning_parts": {
+        "length": 2.28,
+        "specificity": 1.2,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 57
+      },
+      "faculty_reasoning_score": 0.4,
+      "civic_skills_score": 0.0,
+      "engagement_index": null,
+      "civic_literacy_index": null,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Traditional news (NYT, WSJ, SF Chronicle)"
+      ],
+      "news_diversity": 1,
+      "support_pattern": "Both"
     },
     {
+      "id": 81,
       "role": "Student",
       "age": 18.0,
       "grade": 12.0,
@@ -1780,9 +3730,38 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 4.0,
+      "mayor_knowledge_hits": [
+        "Budget deficit / fiscal challenge",
+        "Housing / zoning / affordability",
+        "Background (wealth / Tipping Point)"
+      ],
+      "reasoning_depth_score": 1.32,
+      "reasoning_parts": {
+        "length": 0.72,
+        "specificity": 0.6,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 18
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 91.7,
+      "civic_literacy_index": 42.5,
+      "mayor_knowledge_band": "Medium (3-5.9)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "YouTube",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 5,
+      "support_pattern": "Mixed/Unsure"
     },
     {
+      "id": 82,
       "role": "Student",
       "age": 18.0,
       "grade": 12.0,
@@ -1802,9 +3781,33 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 1.72,
+      "reasoning_parts": {
+        "length": 1.72,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 43
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 25.0,
+      "civic_literacy_index": 15.4,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Podcasts",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Neither"
     },
     {
+      "id": 83,
       "role": "Student",
       "age": 18.0,
       "grade": 12.0,
@@ -1824,7 +3827,30 @@
       "subject": null,
       "years_in_ed": null,
       "civic_skills_text": null,
-      "reasoning_text": null
+      "reasoning_text": null,
+      "mayor_knowledge_score": 0.0,
+      "mayor_knowledge_hits": [],
+      "reasoning_depth_score": 0.12,
+      "reasoning_parts": {
+        "length": 0.12,
+        "specificity": 0.0,
+        "perspective": 0.0,
+        "nuance": 0.0,
+        "words": 3
+      },
+      "faculty_reasoning_score": null,
+      "civic_skills_score": 0.0,
+      "engagement_index": 83.3,
+      "civic_literacy_index": 19.2,
+      "mayor_knowledge_band": "None (0)",
+      "news_list": [
+        "Social media (TikTok, Instagram, X)",
+        "Traditional news (NYT, WSJ, SF Chronicle)",
+        "Family or friends",
+        "School"
+      ],
+      "news_diversity": 4,
+      "support_pattern": "Neither"
     }
   ],
   "summary": {
@@ -1833,14 +3859,14 @@
     "n_faculty": 16,
     "support_local_by_role": {
       "Faculty": {
-        "Yes": 56.2,
+        "Yes": 56.25,
         "No": 25.0,
-        "Unsure": 18.8
+        "Unsure": 18.75
       },
       "Student": {
-        "Yes": 44.800000000000004,
+        "Yes": 44.78,
         "No": 40.300000000000004,
-        "Unsure": 14.899999999999999
+        "Unsure": 14.93
       }
     },
     "support_federal_by_role": {
@@ -1850,9 +3876,9 @@
         "Unsure": 25.0
       },
       "Student": {
-        "No": 53.7,
-        "Yes": 29.9,
-        "Unsure": 16.400000000000002
+        "No": 53.73,
+        "Yes": 29.849999999999998,
+        "Unsure": 16.42
       }
     },
     "likert_means": {
@@ -1953,64 +3979,435 @@
         }
       }
     },
-    "news_counts": {
-      "Faculty": {
-        "Family or friends": 6,
-        "Other": 2,
-        "Podcasts": 5,
-        "School": 0,
-        "Social media (TikTok, Instagram, X)": 4,
-        "Traditional news (NYT, WSJ, SF Chronicle)": 16,
-        "YouTube": 1
+    "distributions": {
+      "follow_local": {
+        "Student": {
+          "1": 5,
+          "2": 25,
+          "3": 15,
+          "4": 16,
+          "5": 6
+        },
+        "Faculty": {
+          "3": 7,
+          "4": 7,
+          "5": 2
+        }
       },
+      "follow_federal": {
+        "Student": {
+          "1": 2,
+          "2": 8,
+          "3": 24,
+          "4": 24,
+          "5": 9
+        },
+        "Faculty": {
+          "2": 1,
+          "3": 1,
+          "4": 8,
+          "5": 6
+        }
+      },
+      "influence_local": {
+        "Student": {
+          "1": 43,
+          "2": 13,
+          "3": 9,
+          "4": 2
+        }
+      },
+      "influence_federal": {
+        "Student": {
+          "1": 50,
+          "2": 10,
+          "3": 5,
+          "4": 2
+        }
+      },
+      "align_parents": {
+        "Student": {
+          "1": 1,
+          "2": 2,
+          "3": 12,
+          "4": 29,
+          "5": 23
+        }
+      },
+      "likelihood_vote": {
+        "Student": {
+          "1": 4,
+          "2": 3,
+          "3": 7,
+          "4": 13,
+          "5": 40
+        }
+      },
+      "informed_local": {
+        "Student": {
+          "1": 9,
+          "2": 17,
+          "3": 17,
+          "4": 19,
+          "5": 5
+        },
+        "Faculty": {
+          "1": 2,
+          "2": 1,
+          "3": 8,
+          "4": 4,
+          "5": 1
+        }
+      },
+      "informed_federal": {
+        "Student": {
+          "1": 12,
+          "2": 18,
+          "3": 18,
+          "4": 11,
+          "5": 8
+        },
+        "Faculty": {
+          "1": 2,
+          "2": 3,
+          "3": 7,
+          "4": 4
+        }
+      },
+      "mayor_knowledge_score": {
+        "Student": {
+          "0": 33,
+          "0-2": 14,
+          "2-4": 15,
+          "4-6": 3,
+          "6-8": 1,
+          "8-10": 1
+        },
+        "Faculty": {
+          "0": 16,
+          "0-2": 0,
+          "2-4": 0,
+          "4-6": 0,
+          "6-8": 0,
+          "8-10": 0
+        }
+      },
+      "reasoning_depth_score": {
+        "Student": {
+          "0": 4,
+          "0-2": 37,
+          "2-4": 21,
+          "4-6": 5,
+          "6-8": 0,
+          "8-10": 0
+        },
+        "Faculty": {
+          "0": 0,
+          "0-2": 4,
+          "2-4": 11,
+          "4-6": 1,
+          "6-8": 0,
+          "8-10": 0
+        }
+      }
+    },
+    "news_counts": {
       "Student": {
-        "Family or friends": 53,
-        "Other": 7,
-        "Podcasts": 9,
-        "School": 25,
         "Social media (TikTok, Instagram, X)": 42,
+        "YouTube": 23,
+        "Podcasts": 9,
         "Traditional news (NYT, WSJ, SF Chronicle)": 55,
-        "YouTube": 23
+        "Family or friends": 53,
+        "School": 25,
+        "Other": 7
+      },
+      "Faculty": {
+        "Social media (TikTok, Instagram, X)": 4,
+        "YouTube": 1,
+        "Podcasts": 5,
+        "Traditional news (NYT, WSJ, SF Chronicle)": 16,
+        "Family or friends": 6,
+        "School": 0,
+        "Other": 2
+      }
+    },
+    "source_knowledge": {
+      "Social media (TikTok, Instagram, X)": {
+        "n": 42,
+        "mean_mayor_knowledge": 1.29,
+        "mean_engagement": 62.9
+      },
+      "YouTube": {
+        "n": 23,
+        "mean_mayor_knowledge": 1.48,
+        "mean_engagement": 66.7
+      },
+      "Podcasts": {
+        "n": 9,
+        "mean_mayor_knowledge": 1.22,
+        "mean_engagement": 62.0
+      },
+      "Traditional news (NYT, WSJ, SF Chronicle)": {
+        "n": 55,
+        "mean_mayor_knowledge": 1.45,
+        "mean_engagement": 66.2
+      },
+      "Family or friends": {
+        "n": 53,
+        "mean_mayor_knowledge": 1.32,
+        "mean_engagement": 60.8
+      },
+      "School": {
+        "n": 25,
+        "mean_mayor_knowledge": 1.08,
+        "mean_engagement": 62.0
+      },
+      "Other": {
+        "n": 7,
+        "mean_mayor_knowledge": 1.71,
+        "mean_engagement": 70.3
       }
     },
     "chi2": {
       "role_x_local": {
-        "chi2": 1.2918317840079991,
-        "p": 0.5241822278710395,
+        "chi2": 1.292,
+        "p": 0.5242,
         "dof": 2,
         "table": {
-          "No": {
-            "Faculty": 4,
-            "Student": 27
+          "Faculty": {
+            "No": 4,
+            "Unsure": 3,
+            "Yes": 9
           },
-          "Unsure": {
-            "Faculty": 3,
-            "Student": 10
-          },
-          "Yes": {
-            "Faculty": 9,
-            "Student": 30
+          "Student": {
+            "No": 27,
+            "Unsure": 10,
+            "Yes": 30
           }
         }
       },
       "role_x_federal": {
-        "chi2": 1.4400552184134272,
-        "p": 0.48673881730183466,
+        "chi2": 1.44,
+        "p": 0.4867,
         "dof": 2,
         "table": {
-          "No": {
-            "Faculty": 6,
-            "Student": 36
+          "Faculty": {
+            "No": 6,
+            "Unsure": 4,
+            "Yes": 6
           },
-          "Unsure": {
-            "Faculty": 4,
-            "Student": 11
-          },
-          "Yes": {
-            "Faculty": 6,
-            "Student": 20
+          "Student": {
+            "No": 36,
+            "Unsure": 11,
+            "Yes": 20
           }
         }
+      }
+    },
+    "grade_support": {
+      "9": {
+        "n": 21,
+        "local": {
+          "Yes": 71.43,
+          "No": 19.05,
+          "Unsure": 9.520000000000001
+        },
+        "federal": {
+          "Yes": 47.620000000000005,
+          "No": 33.33,
+          "Unsure": 19.05
+        },
+        "mean_mayor_knowledge": 1.21,
+        "mean_engagement": 70.6,
+        "mean_reasoning": 1.9
+      },
+      "10": {
+        "n": 15,
+        "local": {
+          "Yes": 46.67,
+          "No": 40.0,
+          "Unsure": 13.33
+        },
+        "federal": {
+          "No": 66.67,
+          "Yes": 20.0,
+          "Unsure": 13.33
+        },
+        "mean_mayor_knowledge": 0.7,
+        "mean_engagement": 61.7,
+        "mean_reasoning": 1.58
+      },
+      "11": {
+        "n": 19,
+        "local": {
+          "No": 47.370000000000005,
+          "Yes": 31.580000000000002,
+          "Unsure": 21.05
+        },
+        "federal": {
+          "No": 57.89,
+          "Yes": 26.32,
+          "Unsure": 15.790000000000001
+        },
+        "mean_mayor_knowledge": 1.26,
+        "mean_engagement": 51.8,
+        "mean_reasoning": 1.79
+      },
+      "12": {
+        "n": 12,
+        "local": {
+          "No": 66.67,
+          "Yes": 16.669999999999998,
+          "Unsure": 16.669999999999998
+        },
+        "federal": {
+          "No": 66.67,
+          "Yes": 16.669999999999998,
+          "Unsure": 16.669999999999998
+        },
+        "mean_mayor_knowledge": 2.42,
+        "mean_engagement": 69.4,
+        "mean_reasoning": 1.55
+      }
+    },
+    "band_support": {
+      "None (0)": {
+        "n": 33,
+        "local": {
+          "No": 42.42,
+          "Yes": 36.36,
+          "Unsure": 21.21
+        },
+        "federal": {
+          "No": 63.63999999999999,
+          "Yes": 18.18,
+          "Unsure": 18.18
+        },
+        "mean_engagement": 62.6
+      },
+      "Low (0.1-2.9)": {
+        "n": 18,
+        "local": {
+          "Yes": 77.78,
+          "Unsure": 11.110000000000001,
+          "No": 11.110000000000001
+        },
+        "federal": {
+          "Yes": 55.559999999999995,
+          "Unsure": 22.220000000000002,
+          "No": 22.220000000000002
+        },
+        "mean_engagement": 60.6
+      },
+      "Medium (3-5.9)": {
+        "n": 14,
+        "local": {
+          "No": 64.29,
+          "Yes": 28.57,
+          "Unsure": 7.140000000000001
+        },
+        "federal": {
+          "No": 64.29,
+          "Yes": 28.57,
+          "Unsure": 7.140000000000001
+        },
+        "mean_engagement": 63.7
+      },
+      "High (6-10)": {
+        "n": 2,
+        "local": {
+          "No": 100.0
+        },
+        "federal": {
+          "No": 100.0
+        },
+        "mean_engagement": 87.5
+      }
+    },
+    "faculty_by_years": {
+      "11\u201320": {
+        "n": 3,
+        "local": {
+          "No": 33.33,
+          "Yes": 33.33,
+          "Unsure": 33.33
+        },
+        "federal": {
+          "No": 33.33,
+          "Yes": 33.33,
+          "Unsure": 33.33
+        }
+      },
+      "20+": {
+        "n": 8,
+        "local": {
+          "Yes": 75.0,
+          "No": 25.0
+        },
+        "federal": {
+          "No": 37.5,
+          "Yes": 37.5,
+          "Unsure": 25.0
+        }
+      },
+      "3\u20135": {
+        "n": 1,
+        "local": {
+          "Yes": 100.0
+        },
+        "federal": {
+          "Yes": 100.0
+        }
+      },
+      "6\u201310": {
+        "n": 4,
+        "local": {
+          "Unsure": 50.0,
+          "Yes": 25.0,
+          "No": 25.0
+        },
+        "federal": {
+          "No": 50.0,
+          "Yes": 25.0,
+          "Unsure": 25.0
+        }
+      }
+    },
+    "faculty_by_subject": {
+      "Admin": {
+        "n": 2,
+        "local_yes": 2,
+        "mean_civic_skills": 1.89
+      },
+      "Arts": {
+        "n": 1,
+        "local_yes": 0,
+        "mean_civic_skills": 6.27
+      },
+      "Fundraising": {
+        "n": 1,
+        "local_yes": 1,
+        "mean_civic_skills": 1.43
+      },
+      "History": {
+        "n": 3,
+        "local_yes": 1,
+        "mean_civic_skills": 2.5
+      },
+      "Language": {
+        "n": 2,
+        "local_yes": 1,
+        "mean_civic_skills": 4.5
+      },
+      "Mathematics": {
+        "n": 4,
+        "local_yes": 3,
+        "mean_civic_skills": 1.77
+      },
+      "Sciences": {
+        "n": 3,
+        "local_yes": 1,
+        "mean_civic_skills": 6.58
       }
     },
     "correlations": {
@@ -2024,7 +4421,12 @@
         "align_parents": -0.146,
         "likelihood_vote": -0.166,
         "informed_local": -0.407,
-        "informed_federal": -0.262
+        "informed_federal": -0.262,
+        "mayor_knowledge_score": 0.069,
+        "reasoning_depth_score": -0.031,
+        "engagement_index": -0.086,
+        "civic_literacy_index": 0.026,
+        "news_diversity": -0.132
       },
       "grade": {
         "age": 0.908,
@@ -2036,7 +4438,12 @@
         "align_parents": -0.19,
         "likelihood_vote": -0.197,
         "informed_local": -0.408,
-        "informed_federal": -0.336
+        "informed_federal": -0.336,
+        "mayor_knowledge_score": 0.187,
+        "reasoning_depth_score": -0.069,
+        "engagement_index": -0.141,
+        "civic_literacy_index": 0.061,
+        "news_diversity": -0.121
       },
       "follow_local": {
         "age": 0.006,
@@ -2048,7 +4455,12 @@
         "align_parents": -0.493,
         "likelihood_vote": 0.348,
         "informed_local": 0.107,
-        "informed_federal": 0.111
+        "informed_federal": 0.111,
+        "mayor_knowledge_score": 0.207,
+        "reasoning_depth_score": 0.087,
+        "engagement_index": 0.829,
+        "civic_literacy_index": 0.6,
+        "news_diversity": 0.132
       },
       "follow_federal": {
         "age": -0.032,
@@ -2060,7 +4472,12 @@
         "align_parents": -0.541,
         "likelihood_vote": 0.321,
         "informed_local": 0.234,
-        "informed_federal": 0.279
+        "informed_federal": 0.279,
+        "mayor_knowledge_score": 0.138,
+        "reasoning_depth_score": 0.218,
+        "engagement_index": 0.793,
+        "civic_literacy_index": 0.589,
+        "news_diversity": 0.177
       },
       "influence_local": {
         "age": 0.384,
@@ -2072,7 +4489,12 @@
         "align_parents": -0.126,
         "likelihood_vote": 0.118,
         "informed_local": -0.056,
-        "informed_federal": -0.053
+        "informed_federal": -0.053,
+        "mayor_knowledge_score": 0.066,
+        "reasoning_depth_score": -0.034,
+        "engagement_index": 0.147,
+        "civic_literacy_index": 0.091,
+        "news_diversity": 0.215
       },
       "influence_federal": {
         "age": 0.276,
@@ -2084,7 +4506,12 @@
         "align_parents": -0.103,
         "likelihood_vote": 0.054,
         "informed_local": 0.006,
-        "informed_federal": -0.05
+        "informed_federal": -0.05,
+        "mayor_knowledge_score": -0.055,
+        "reasoning_depth_score": 0.069,
+        "engagement_index": 0.111,
+        "civic_literacy_index": 0.046,
+        "news_diversity": 0.327
       },
       "align_parents": {
         "age": -0.146,
@@ -2096,7 +4523,12 @@
         "align_parents": 1.0,
         "likelihood_vote": -0.144,
         "informed_local": -0.097,
-        "informed_federal": -0.11
+        "informed_federal": -0.11,
+        "mayor_knowledge_score": -0.363,
+        "reasoning_depth_score": -0.197,
+        "engagement_index": -0.488,
+        "civic_literacy_index": -0.581,
+        "news_diversity": -0.041
       },
       "likelihood_vote": {
         "age": -0.166,
@@ -2108,7 +4540,12 @@
         "align_parents": -0.144,
         "likelihood_vote": 1.0,
         "informed_local": 0.419,
-        "informed_federal": 0.339
+        "informed_federal": 0.339,
+        "mayor_knowledge_score": 0.058,
+        "reasoning_depth_score": 0.057,
+        "engagement_index": 0.732,
+        "civic_literacy_index": 0.237,
+        "news_diversity": -0.077
       },
       "informed_local": {
         "age": -0.407,
@@ -2120,7 +4557,12 @@
         "align_parents": -0.097,
         "likelihood_vote": 0.419,
         "informed_local": 1.0,
-        "informed_federal": 0.637
+        "informed_federal": 0.637,
+        "mayor_knowledge_score": -0.049,
+        "reasoning_depth_score": 0.021,
+        "engagement_index": 0.327,
+        "civic_literacy_index": 0.064,
+        "news_diversity": 0.046
       },
       "informed_federal": {
         "age": -0.262,
@@ -2132,42 +4574,151 @@
         "align_parents": -0.11,
         "likelihood_vote": 0.339,
         "informed_local": 0.637,
-        "informed_federal": 1.0
+        "informed_federal": 1.0,
+        "mayor_knowledge_score": -0.099,
+        "reasoning_depth_score": 0.088,
+        "engagement_index": 0.31,
+        "civic_literacy_index": 0.069,
+        "news_diversity": 0.02
+      },
+      "mayor_knowledge_score": {
+        "age": 0.069,
+        "grade": 0.187,
+        "follow_local": 0.207,
+        "follow_federal": 0.138,
+        "influence_local": 0.066,
+        "influence_federal": -0.055,
+        "align_parents": -0.363,
+        "likelihood_vote": 0.058,
+        "informed_local": -0.049,
+        "informed_federal": -0.099,
+        "mayor_knowledge_score": 1.0,
+        "reasoning_depth_score": 0.079,
+        "engagement_index": 0.17,
+        "civic_literacy_index": 0.766,
+        "news_diversity": 0.021
+      },
+      "reasoning_depth_score": {
+        "age": -0.031,
+        "grade": -0.069,
+        "follow_local": 0.087,
+        "follow_federal": 0.218,
+        "influence_local": -0.034,
+        "influence_federal": 0.069,
+        "align_parents": -0.197,
+        "likelihood_vote": 0.057,
+        "informed_local": 0.021,
+        "informed_federal": 0.088,
+        "mayor_knowledge_score": 0.079,
+        "reasoning_depth_score": 1.0,
+        "engagement_index": 0.147,
+        "civic_literacy_index": 0.507,
+        "news_diversity": 0.264
+      },
+      "engagement_index": {
+        "age": -0.086,
+        "grade": -0.141,
+        "follow_local": 0.829,
+        "follow_federal": 0.793,
+        "influence_local": 0.147,
+        "influence_federal": 0.111,
+        "align_parents": -0.488,
+        "likelihood_vote": 0.732,
+        "informed_local": 0.327,
+        "informed_federal": 0.31,
+        "mayor_knowledge_score": 0.17,
+        "reasoning_depth_score": 0.147,
+        "engagement_index": 1.0,
+        "civic_literacy_index": 0.596,
+        "news_diversity": 0.09
+      },
+      "civic_literacy_index": {
+        "age": 0.026,
+        "grade": 0.061,
+        "follow_local": 0.6,
+        "follow_federal": 0.589,
+        "influence_local": 0.091,
+        "influence_federal": 0.046,
+        "align_parents": -0.581,
+        "likelihood_vote": 0.237,
+        "informed_local": 0.064,
+        "informed_federal": 0.069,
+        "mayor_knowledge_score": 0.766,
+        "reasoning_depth_score": 0.507,
+        "engagement_index": 0.596,
+        "civic_literacy_index": 1.0,
+        "news_diversity": 0.195
+      },
+      "news_diversity": {
+        "age": -0.132,
+        "grade": -0.121,
+        "follow_local": 0.132,
+        "follow_federal": 0.177,
+        "influence_local": 0.215,
+        "influence_federal": 0.327,
+        "align_parents": -0.041,
+        "likelihood_vote": -0.077,
+        "informed_local": 0.046,
+        "informed_federal": 0.02,
+        "mayor_knowledge_score": 0.021,
+        "reasoning_depth_score": 0.264,
+        "engagement_index": 0.09,
+        "civic_literacy_index": 0.195,
+        "news_diversity": 1.0
       }
     },
     "logit_local_student": {
-      "intercept": 0.06375078366248588,
+      "intercept": -0.062,
       "coefs": {
-        "age": -0.41030158472975325,
-        "follow_local": -1.0032548413924542,
-        "follow_federal": 0.2222011182804097,
-        "influence_local": -0.001689828891783261,
-        "influence_federal": 0.3938353068607935,
-        "align_parents": 0.4904060943407351,
-        "informed_local": 1.9896401120439744,
-        "informed_federal": 1.1713143628413207,
-        "likelihood_vote": 0.19276028351557892
+        "age": -0.374,
+        "follow_local": -0.991,
+        "follow_federal": 0.099,
+        "influence_local": 0.176,
+        "influence_federal": 0.242,
+        "align_parents": 0.28,
+        "informed_local": 2.006,
+        "informed_federal": 1.108,
+        "likelihood_vote": 0.283,
+        "mayor_knowledge_score": -0.556,
+        "reasoning_depth_score": 0.798
       },
-      "accuracy": 0.9473684210526315,
+      "accuracy": 0.947,
       "n": 57,
-      "support_yes_rate": 0.5263157894736842
+      "support_yes_rate": 0.526
     },
     "logit_federal_student": {
-      "intercept": -1.1424979392330263,
+      "intercept": -1.094,
       "coefs": {
-        "age": 0.03551853774668706,
-        "follow_local": -0.09204432391780001,
-        "follow_federal": 0.4212183304845604,
-        "influence_local": 0.42469633602346135,
-        "influence_federal": -0.15926778773689385,
-        "align_parents": 0.45113735269232336,
-        "informed_local": 0.8971725913661039,
-        "informed_federal": 1.9644949361426056,
-        "likelihood_vote": -0.3331641638529545
+        "age": -0.162,
+        "follow_local": -0.162,
+        "follow_federal": 0.412,
+        "influence_local": 0.365,
+        "influence_federal": -0.026,
+        "align_parents": 0.343,
+        "informed_local": 0.681,
+        "informed_federal": 1.964,
+        "likelihood_vote": -0.166,
+        "mayor_knowledge_score": -0.003,
+        "reasoning_depth_score": -0.319
       },
-      "accuracy": 0.9122807017543859,
-      "n": 57,
-      "support_yes_rate": 0.3508771929824561
+      "accuracy": 0.857,
+      "n": 56,
+      "support_yes_rate": 0.357
+    },
+    "support_pattern": {
+      "Faculty": {
+        "Both": 37.5,
+        "Neither": 25.0,
+        "Local only": 18.75,
+        "Mixed/Unsure": 18.75
+      },
+      "Student": {
+        "Neither": 38.81,
+        "Both": 28.360000000000003,
+        "Local only": 16.42,
+        "Mixed/Unsure": 14.93,
+        "Federal only": 1.49
+      }
     },
     "keywords_student": {
       "parent": 6,
@@ -2183,7 +4734,11 @@
       "federal": 10,
       "biased": 1,
       "critical": 1,
-      "misinformation": 1
+      "misinformation": 1,
+      "research": 2,
+      "responsib": 3,
+      "habit": 0,
+      "turnout": 0
     },
     "keywords_faculty": {
       "parent": 3,
@@ -2199,7 +4754,89 @@
       "federal": 2,
       "biased": 0,
       "critical": 0,
-      "misinformation": 0
+      "misinformation": 0,
+      "research": 1,
+      "responsib": 1,
+      "habit": 3,
+      "turnout": 2
+    },
+    "headline": {
+      "support_local_yes_overall": 47.0,
+      "support_federal_yes_overall": 31.3,
+      "mean_mayor_knowledge_student": 1.33,
+      "pct_mayor_knowledge_zero": 49.3,
+      "mean_engagement_student": 63.1,
+      "mean_civic_literacy_student": 24.9,
+      "mean_reasoning_student": 1.73,
+      "mean_reasoning_faculty": 2.55
     }
+  },
+  "rubrics": {
+    "mayor_knowledge": [
+      {
+        "label": "Names the mayor (Lurie)",
+        "points": 2.0
+      },
+      {
+        "label": "Knows first name",
+        "points": 0.5
+      },
+      {
+        "label": "Party / ideology",
+        "points": 1.0
+      },
+      {
+        "label": "Homelessness focus",
+        "points": 1.0
+      },
+      {
+        "label": "Drug crisis focus",
+        "points": 1.0
+      },
+      {
+        "label": "Downtown / economic recovery",
+        "points": 1.0
+      },
+      {
+        "label": "Public safety / crime",
+        "points": 1.0
+      },
+      {
+        "label": "Budget deficit / fiscal challenge",
+        "points": 1.5
+      },
+      {
+        "label": "Housing / zoning / affordability",
+        "points": 1.5
+      },
+      {
+        "label": "Charter reform",
+        "points": 1.5
+      },
+      {
+        "label": "Sister-city diplomacy",
+        "points": 1.0
+      },
+      {
+        "label": "Climate plan",
+        "points": 1.0
+      },
+      {
+        "label": "Media presence",
+        "points": 0.5
+      },
+      {
+        "label": "Campaign slogan",
+        "points": 0.5
+      },
+      {
+        "label": "Background (wealth / Tipping Point)",
+        "points": 1.0
+      }
+    ],
+    "reasoning_depth": "length(0-3) + specificity(0-3) + multi-perspective(0-2) + nuance(0-2)",
+    "civic_skills": "civic-concept hits (0-7) + length bonus (0-3)",
+    "engagement_index": "mean of follow_local, follow_federal, likelihood_vote rescaled to 0-100",
+    "civic_literacy_index": "40% mayor knowledge + 35% reasoning depth + 25% political following"
   }
 }
