@@ -589,11 +589,15 @@ document.getElementById('kpis').innerHTML = KPIS.map(k=>
 (function(){
   const d=S.distributions.reasoning_depth_score;
   const labels=Object.keys(d.Student);
+  const stuTot=Object.values(d.Student).reduce((a,b)=>a+b,0)||1;
+  const facTot=d.Faculty?(Object.values(d.Faculty).reduce((a,b)=>a+b,0)||1):1;
   mk('ch-reason',{type:'bar',data:{labels,datasets:[
-    {label:'Student',data:labels.map(k=>d.Student[k]||0),backgroundColor:C.student,borderRadius:4},
-    {label:'Faculty',data:labels.map(k=>(d.Faculty&&d.Faculty[k])||0),backgroundColor:C.faculty,borderRadius:4}
-  ]},options:{responsive:true,scales:{y:{grid:{color:C.line}},x:{title:{display:true,text:'Reasoning depth score'},grid:{display:false}}},
-    plugins:{legend:{position:'bottom'}}}});
+    {label:'Student',data:labels.map(k=>+(100*(d.Student[k]||0)/stuTot).toFixed(1)),backgroundColor:C.student,borderRadius:4},
+    {label:'Faculty',data:labels.map(k=>+(100*((d.Faculty&&d.Faculty[k])||0)/facTot).toFixed(1)),backgroundColor:C.faculty,borderRadius:4}
+  ]},options:{responsive:true,
+    scales:{y:{grid:{color:C.line},ticks:{callback:v=>v+'%'},title:{display:true,text:'% of group'}},
+            x:{title:{display:true,text:'Reasoning depth score'},grid:{display:false}}},
+    plugins:{legend:{position:'bottom'},tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.parsed.y+'%'}}}}});
   document.getElementById('tk-reason').innerHTML =
     `Faculty average <b>${H.mean_reasoning_faculty}/10</b> vs students' <b>${H.mean_reasoning_student}/10</b>. `+
     `Most student explanations are short and single-angle; the longest, most-qualified arguments come from faculty.`;
@@ -659,12 +663,20 @@ document.getElementById('kpis').innerHTML = KPIS.map(k=>
     const d=S.distributions[key];
     const labels=['1','2','3','4','5'];
     const ds=[];
-    if(d.Student) ds.push({label:'Student',data:labels.map(l=>d.Student[l]||0),backgroundColor:C.student,borderRadius:3});
-    if(d.Faculty) ds.push({label:'Faculty',data:labels.map(l=>d.Faculty[l]||0),backgroundColor:C.faculty,borderRadius:3});
+    if(d.Student){
+      const t=Object.values(d.Student).reduce((a,b)=>a+b,0)||1;
+      ds.push({label:'Student',data:labels.map(l=>+(100*(d.Student[l]||0)/t).toFixed(1)),backgroundColor:C.student,borderRadius:3});
+    }
+    if(d.Faculty){
+      const t=Object.values(d.Faculty).reduce((a,b)=>a+b,0)||1;
+      ds.push({label:'Faculty',data:labels.map(l=>+(100*(d.Faculty[l]||0)/t).toFixed(1)),backgroundColor:C.faculty,borderRadius:3});
+    }
     mk('ch-dist',{type:'bar',data:{labels:labels.map(l=>'Rating '+l),datasets:ds},
-      options:{responsive:true,scales:{y:{grid:{color:C.line}},x:{grid:{display:false}}},
-        plugins:{legend:{position:'bottom'},title:{display:false}}}});
-    document.getElementById('dist-legend').textContent = name+' — 1 (low) to 5 (high). Faculty did not answer influence/parents/vote items.';
+      options:{responsive:true,
+        scales:{y:{grid:{color:C.line},ticks:{callback:v=>v+'%'},title:{display:true,text:'% of group'}},x:{grid:{display:false}}},
+        plugins:{legend:{position:'bottom'},title:{display:false},
+          tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.parsed.y+'%'}}}}});
+    document.getElementById('dist-legend').textContent = name+' — 1 (low) to 5 (high), shown as % of each group. Faculty did not answer influence/parents/vote items.';
   }
   tabs.addEventListener('click',e=>{
     const b=e.target.closest('button'); if(!b)return;
